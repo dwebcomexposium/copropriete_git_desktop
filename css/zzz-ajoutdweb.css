@@ -1,0 +1,11 @@
+.tt-dropdown-menu {
+    margin-top: 5px !important;
+}
+
+.newsletter-form .nf-main-content.cxp-newsletter {
+    background: #3682be;
+}
+
+.newsletter-form .nf-main-content.cxp-newsletter .nf-form-submit [class^="btn"]:focus, .newsletter-form .nf-main-content.cxp-newsletter .nf-form-submit [class^="btn"]:hover, .newsletter-form .nf-main-content.cxp-newsletter .nf-form-submit [class^="btn"]:active, .newsletter-form .nf-main-content.cxp-newsletter .nf-form-submit [class^="btn"] {
+background-color:#f6990e;
+}
