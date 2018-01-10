@@ -9,3 +9,9 @@
 .newsletter-form .nf-main-content.cxp-newsletter .nf-form-submit [class^="btn"]:focus, .newsletter-form .nf-main-content.cxp-newsletter .nf-form-submit [class^="btn"]:hover, .newsletter-form .nf-main-content.cxp-newsletter .nf-form-submit [class^="btn"]:active, .newsletter-form .nf-main-content.cxp-newsletter .nf-form-submit [class^="btn"] {
 background-color:#f6990e;
 }
+
+header.is-stuck .header_links .dateSalon {
+margin-top: 16px;
+    background: url(img/date_sticky-2018.jpg) center center no-repeat !important;
+    width: 177px;
+}
