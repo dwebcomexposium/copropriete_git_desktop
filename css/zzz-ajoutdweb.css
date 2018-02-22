@@ -15,3 +15,6 @@ margin-top: 16px;
     background: url(img/date_sticky-2018.jpg) center center no-repeat !important;
     width: 177px;
 }
+.btn-primary{
+border:0;
+}
