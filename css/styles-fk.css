@@ -14484,7 +14484,9 @@ header.is-stuck .header_links .dateSalon{
     -webkit-transition:all .25s ease-out;
     -o-transition:all .25s ease-out;
     transition:all .25s ease-out;
-    border:1px solid #ee2152
+    border:1px solid #ee2152;
+    text-align: center;
+    text-decoration: none;
 }
 .article a.container_redac:hover{
     background-color:#fff;
