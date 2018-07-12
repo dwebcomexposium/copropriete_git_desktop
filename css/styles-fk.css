@@ -5175,12 +5175,21 @@ li.mod-catal .esf-sublvl-heading:hover{
 .mn-menu-submenu{
     display:none;
     position:absolute;
-    top:-webkit-calc(100% + 2px);
-    top:calc(100% + 2px);
+    top:-webkit-calc(100% + 20px);
+    top:calc(100% + 20px);
     left:0;
     z-index:500;
     margin:0
 }
+
+ul.mn-menu-submenu.mn-menu-lvl2.unstyled a {
+    padding-left: 10px;
+}
+
+ul.mn-menu-submenu.mn-menu-lvl2.unstyled a:hover {
+    padding-left: 15px;
+}
+
 .mn-menu-submenu .mn-link{
     display:block;
     padding-left:1.85em;
@@ -11462,43 +11471,43 @@ body{
 }
 @font-face{
     font-family:glober bold;
-    src:url(GloberBoldItalic.eot);
-    src:url(GloberBoldItalic.eot?#iefix) format('embedded-opentype'),url(GloberBoldItalic.woff2) format('woff2'),url(GloberBoldItalic.woff) format('woff'),url(GloberBoldItalic.ttf) format('truetype'),url(GloberBoldItalic.svg#GloberBoldItalic) format('svg');
+    src:url(../fonts/glober/GloberBoldItalic.eot);
+    src:url(../fonts/glober/GloberBoldItalic.eot?#iefix) format('embedded-opentype'),url(../fonts/glober/GloberBoldItalic.woff2) format('woff2'),url(../fonts/glober/GloberBoldItalic.woff) format('woff'),url(../fonts/glober/GloberBoldItalic.ttf) format('truetype'),url(../fonts/glober/GloberBoldItalic.svg#GloberBoldItalic) format('svg');
     font-weight:700;
     font-style:italic
 }
 @font-face{
     font-family:glober regular;
-    src:url(GloberRegularItalic.eot);
-    src:url(GloberRegularItalic.eot?#iefix) format('embedded-opentype'),offres-stands url(GloberRegularItalic.woff2) format('woff2'),url(GloberRegularItalic.woff) format('woff'),url(GloberRegularItalic.ttf) format('truetype'),url(GloberRegularItalic.svg#GloberRegularItalic) format('svg');
+    src:url(../fonts/glober/GloberRegularItalic.eot);
+    src:url(../fonts/glober/GloberRegularItalic.eot?#iefix) format('embedded-opentype'),offres-stands url(../fonts/glober/GloberRegularItalic.woff2) format('woff2'),url(../fonts/glober/GloberRegularItalic.woff) format('woff'),url(../fonts/glober/GloberRegularItalic.ttf) format('truetype'),url(../fonts/glober/GloberRegularItalic.svg#GloberRegularItalic) format('svg');
     font-weight:400;
     font-style:italic
 }
 @font-face{
     font-family:glober;
-    src:url(GloberBold.eot);
-    src:url(GloberBold.eot?#iefix) format('embedded-opentype'),url(GloberBold.woff2) format('woff2'),url(GloberBold.woff) format('woff'),url(GloberBold.ttf) format('truetype'),url(GloberBold.svg#GloberBold) format('svg');
+    src:url(../fonts/glober/GloberBold.eot);
+    src:url(../fonts/glober/GloberBold.eot?#iefix) format('embedded-opentype'),url(../fonts/glober/GloberBold.woff2) format('woff2'),url(../fonts/glober/GloberBold.woff) format('woff'),url(../fonts/glober/GloberBold.ttf) format('truetype'),url(../fonts/glober/GloberBold.svg#GloberBold) format('svg');
     font-weight:700;
     font-style:normal
 }
 @font-face{
     font-family:glober semibold;
-    src:url(GloberSemiBoldItalic.eot);
-    src:url(GloberSemiBoldItalic.eot?#iefix) format('embedded-opentype'),url(GloberSemiBoldItalic.woff2) format('woff2'),url(GloberSemiBoldItalic.woff) format('woff'),url(GloberSemiBoldItalic.ttf) format('truetype'),url(GloberSemiBoldItalic.svg#GloberSemiBoldItalic) format('svg');
+    src:url(../fonts/glober/GloberSemiBoldItalic.eot);
+    src:url(../fonts/glober/GloberSemiBoldItalic.eot?#iefix) format('embedded-opentype'),url(../fonts/glober/GloberSemiBoldItalic.woff2) format('woff2'),url(../fonts/glober/GloberSemiBoldItalic.woff) format('woff'),url(../fonts/glober/GloberSemiBoldItalic.ttf) format('truetype'),url(../fonts/glober/GloberSemiBoldItalic.svg#GloberSemiBoldItalic) format('svg');
     font-weight:600;
     font-style:italic
 }
 @font-face{
     font-family:glober;
-    src:url(GloberRegular.eot);
-    src:url(GloberRegular.eot?#iefix) format('embedded-opentype'),url(GloberRegular.woff2) format('woff2'),url(GloberRegular.woff) format('woff'),url(GloberRegular.ttf) format('truetype'),url(GloberRegular.svg#GloberRegular) format('svg');
+    src:url(../fonts/glober/GloberRegular.eot);
+    src:url(../fonts/glober/GloberRegular.eot?#iefix) format('embedded-opentype'),url(../fonts/glober/GloberRegular.woff2) format('woff2'),url(../fonts/glober/GloberRegular.woff) format('woff'),url(../fonts/glober/GloberRegular.ttf) format('truetype'),url(../fonts/glober/GloberRegular.svg#GloberRegular) format('svg');
     font-weight:400;
     font-style:normal
 }
 @font-face{
     font-family:glober;
-    src:url(GloberSemiBold.eot);
-    src:url(GloberSemiBold.eot?#iefix) format('embedded-opentype'),url(GloberSemiBold.woff2) format('woff2'),url(GloberSemiBold.woff) format('woff'),url(GloberSemiBold.ttf) format('truetype'),url(GloberSemiBold.svg#GloberSemiBold) format('svg');
+    src:url(../fonts/glober/GloberSemiBold.eot);
+    src:url(../fonts/glober/GloberSemiBold.eot?#iefix) format('embedded-opentype'),url(../fonts/glober/GloberSemiBold.woff2) format('woff2'),url(../fonts/glober/GloberSemiBold.woff) format('woff'),url(../fonts/glober/GloberSemiBold.ttf) format('truetype'),url(../fonts/glober/GloberSemiBold.svg#GloberSemiBold) format('svg');
     font-weight:600;
     font-style:normal
 }
@@ -11761,6 +11770,11 @@ header ul.mn-menu.mn-menu-lvl1.unstyled{
     padding-left:12px;
     margin-right:30px
 }
+ul.mn-menu-submenu.mn-menu-lvl2.unstyled {
+    margin-top: -22px;
+    border-top: 20px solid #ffffff;
+}
+
 .espace-pro header .linkid72282 .icon,.espace-pro header .linkid72283 .icon,.espace-pro header li:last-child .icon,.home-quicklinks .linkid70690 .icon,.home-quicklinks .linkid70692 .icon,.home-quicklinks .linkid70693 .icon,.home-quicklinks .linkid70696 .icon,.liens-thematiques .linkid70698 .icon,.liens-thematiques .linkid70700 .icon,.liens-thematiques .linkid70701 .icon,.liens-thematiques .linkid70702 .icon,.liens-thematiques .linkid70703 .icon,.liens-thematiques .linkid70704 .icon,.liens-thematiques .linkid70705 .icon,.liens-thematiques .linkid70706 .icon,.liens-thematiques .linkid70707 .icon,header .linkid70638 .icon{
     background-image:url(https://www.saloncopropriete.com/theme/copropriete_git_desktop/img/sprite_icons_FK.png);
     background-repeat:no-repeat
@@ -11872,7 +11886,7 @@ header .header_links{
     -webkit-box-shadow:0 0;
     box-shadow:0 0;
     clear:both;
-    padding:0;
+    padding: 18px 0;
     position:relative;
     z-index:3
 }
@@ -11920,7 +11934,7 @@ header .linkid70638 .btn-primary{
 header .linkid70638 .btn-primary .txt-btn{
     line-height:21px;
     display:inline-block;
-    width:155px;
+    width:165px;
     padding-top:10px;
     font-size:16px;
     letter-spacing:.6px
@@ -12236,7 +12250,11 @@ header.is-stuck .header_links{
 }
 .espace-pro header.is-stuck .mn-item-lvl-1>.mn-link{
     min-height:65px;
-    padding-bottom:1em
+    padding-bottom:1em;
+    white-space: nowrap;
+}
+.espace-pro header.is-stuck ul.mn-menu.mn-menu-lvl1.unstyled {
+    flex-wrap: nowrap;
 }
 .espace-pro header .quicklinks li.ql-item .btn-primary{
     height:70px;
@@ -14257,6 +14275,14 @@ form.comexposium-survey-form{
     body{
         min-width:1200px
     }
+    .main-navigation {
+            padding: 19px 0;
+    }
+    ul.mn-menu-submenu.mn-menu-lvl2.unstyled {
+        margin-top: -20px;
+        border-top: 20px solid #ffffff;
+    }
+
     header .linkid70638 .btn-primary{
         width:74px;
         padding:15px
@@ -14344,7 +14370,18 @@ header .mn-item-lvl-1>a .mn-link-text:before,header .mn-menu-item:first-of-type>
         height:3px;
         bottom:5px
     }
+    header .main-navigation {
+        font-size: 13px;
+    }
 }
+
+@media only screen and (max-width:1240px){
+    .main-navigation{
+        padding: 0;
+        padding-top: 3px;
+    }
+}
+
 @media only screen and (max-width:1200px){
     body{
         min-width:1024px
@@ -14474,7 +14511,7 @@ header.is-stuck .header_links .dateSalon{
     padding:10px 20px 6px 40px;
     -webkit-border-radius:25px;
     border-radius:25px;
-    background-color:#ee2152;
+    background-color:#3973a5;
     color:#fff;
     text-transform:uppercase;
     position:relative;
@@ -14484,13 +14521,13 @@ header.is-stuck .header_links .dateSalon{
     -webkit-transition:all .25s ease-out;
     -o-transition:all .25s ease-out;
     transition:all .25s ease-out;
-    border:1px solid #ee2152;
+    border:1px solid #3973a5;
     text-align: center;
     text-decoration: none;
 }
 .article a.container_redac:hover{
     background-color:#fff;
-    color:#ee2152
+    color:#3973a5
 }
 .article a.container_redac:before{
     content:'';
