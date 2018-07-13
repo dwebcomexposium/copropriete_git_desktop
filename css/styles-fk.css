@@ -52,7 +52,9 @@
     border-width:7px 4px 0;
     -webkit-transition:-webkit-transform .3s;
     -o-transition:transform .3s;
+    transition:-webkit-transform .3s;
     transition:transform .3s;
+    transition:transform .3s, -webkit-transform .3s;
     transition:transform .3s,-webkit-transform .3s
 }
 .swiper-slide,.swiper-wrapper{
@@ -98,7 +100,9 @@
     transform-style:preserve-3d;
     -webkit-transition-property:-webkit-transform;
     -o-transition-property:transform;
+    transition-property:-webkit-transform;
     transition-property:transform;
+    transition-property:transform, -webkit-transform;
     transition-property:transform,-webkit-transform;
     -webkit-box-sizing:content-box;
     box-sizing:content-box
@@ -259,24 +263,28 @@
     background-image:-webkit-linear-gradient(right,rgba(0,0,0,.5),rgba(0,0,0,0));
     background-image:-webkit-gradient(linear,right top,left top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,0)));
     background-image:-o-linear-gradient(right,rgba(0,0,0,.5),rgba(0,0,0,0));
+    background-image:-webkit-gradient(linear,right top, left top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,0)));
     background-image:linear-gradient(to left,rgba(0,0,0,.5),rgba(0,0,0,0))
 }
 .swiper-container-3d .swiper-slide-shadow-right{
     background-image:-webkit-linear-gradient(left,rgba(0,0,0,.5),rgba(0,0,0,0));
     background-image:-webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,0)));
     background-image:-o-linear-gradient(left,rgba(0,0,0,.5),rgba(0,0,0,0));
+    background-image:-webkit-gradient(linear,left top, right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,0)));
     background-image:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,0))
 }
 .swiper-container-3d .swiper-slide-shadow-top{
     background-image:-webkit-linear-gradient(bottom,rgba(0,0,0,.5),rgba(0,0,0,0));
     background-image:-webkit-gradient(linear,left bottom,left top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,0)));
     background-image:-o-linear-gradient(bottom,rgba(0,0,0,.5),rgba(0,0,0,0));
+    background-image:-webkit-gradient(linear,left bottom, left top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,0)));
     background-image:linear-gradient(to top,rgba(0,0,0,.5),rgba(0,0,0,0))
 }
 .swiper-container-3d .swiper-slide-shadow-bottom{
     background-image:-webkit-linear-gradient(top,rgba(0,0,0,.5),rgba(0,0,0,0));
     background-image:-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.5)),to(rgba(0,0,0,0)));
     background-image:-o-linear-gradient(top,rgba(0,0,0,.5),rgba(0,0,0,0));
+    background-image:-webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,.5)),to(rgba(0,0,0,0)));
     background-image:linear-gradient(to bottom,rgba(0,0,0,.5),rgba(0,0,0,0))
 }
 .swiper-container-coverflow .swiper-wrapper{
@@ -1018,10 +1026,15 @@ input[type=checkbox].ac-switcher{
     margin-right:1.2rem
 }
 .mod-catal .catal-ed-products .catal-edp-content{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
     display:flex;
     -webkit-flex-direction:row;
     -ms-flex-direction:row;
-    flex-direction:row;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+            flex-direction:row;
     -webkit-flex-wrap:wrap;
     -ms-flex-wrap:wrap;
     flex-wrap:wrap;
@@ -1144,10 +1157,15 @@ input[type=checkbox].ac-switcher{
     color:#00525e
 }
 .mod-catal .catal-ed-brands .catal-ed-brands-list{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
     display:flex;
     -webkit-flex-direction:row;
     -ms-flex-direction:row;
-    flex-direction:row;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+            flex-direction:row;
     -webkit-flex-wrap:wrap;
     -ms-flex-wrap:wrap;
     flex-wrap:wrap;
@@ -1553,6 +1571,7 @@ input[type=checkbox].ac-switcher{
     width:100%;
     -webkit-transition:opacity .2s ease-in-out,-webkit-filter .2s ease-in-out;
     -o-transition:opacity .2s ease-in-out,filter .2s ease-in-out;
+    transition:opacity .2s ease-in-out,-webkit-filter .2s ease-in-out;
     transition:opacity .2s ease-in-out,filter .2s ease-in-out;
     transition:opacity .2s ease-in-out,filter .2s ease-in-out,-webkit-filter .2s ease-in-out
 }
@@ -2562,7 +2581,9 @@ input[type=checkbox].ac-switcher{
     text-decoration:none;
     -webkit-transition:-webkit-transform .3s ease;
     -o-transition:transform .3s ease;
+    transition:-webkit-transform .3s ease;
     transition:transform .3s ease;
+    transition:transform .3s ease, -webkit-transform .3s ease;
     transition:transform .3s ease,-webkit-transform .3s ease
 }
 .mod-catal.history .qty-round,.mod-catal.myselection .qty-round{
@@ -3680,7 +3701,9 @@ body:not(:-moz-handler-blocked).mod-catal .esf-search-line .form-select::after{
     float:left;
     -webkit-transition:-webkit-transform .3s;
     -o-transition:transform .3s;
+    transition:-webkit-transform .3s;
     transition:transform .3s;
+    transition:transform .3s, -webkit-transform .3s;
     transition:transform .3s,-webkit-transform .3s;
     will-change:transform
 }
@@ -4114,7 +4137,9 @@ li.mod-catal .esf-sublvl-heading:hover{
     justify-content:flex-start;
     -webkit-flex-direction:column;
     -ms-flex-direction:column;
-    flex-direction:column;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+            flex-direction:column;
     margin:0;
     padding:0;
     -webkit-box-shadow:none;
@@ -4544,6 +4569,7 @@ li.mod-catal .esf-sublvl-heading:hover{
     -webkit-transition:height .2s,box-shadow .2s,opacity .2s;
     -webkit-transition:height .2s,opacity .2s,-webkit-box-shadow .2s;
     -o-transition:height .2s,box-shadow .2s,opacity .2s;
+    transition:height .2s,opacity .2s,-webkit-box-shadow .2s;
     transition:height .2s,box-shadow .2s,opacity .2s;
     transition:height .2s,box-shadow .2s,opacity .2s,-webkit-box-shadow .2s
 }
@@ -4827,7 +4853,9 @@ li.mod-catal .esf-sublvl-heading:hover{
     display:flex;
     -webkit-flex-direction:column;
     -ms-flex-direction:column;
-    flex-direction:column;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+            flex-direction:column;
     background:#fff;
     -webkit-transition:background .2s,color .2s;
     -o-transition:background .2s,color .2s;
@@ -5530,6 +5558,7 @@ ul.mn-menu-submenu.mn-menu-lvl2.unstyled a:hover {
     background:-webkit-linear-gradient(top,rgba(255,255,255,0) 0,#fff 80%);
     background:-webkit-gradient(linear,left top,left bottom,from(rgba(255,255,255,0)),color-stop(80%,#fff));
     background:-o-linear-gradient(top,rgba(255,255,255,0) 0,#fff 80%);
+    background:-webkit-gradient(linear,left top, left bottom,color-stop(0, rgba(255,255,255,0)),color-stop(80%, #fff));
     background:linear-gradient(to bottom,rgba(255,255,255,0) 0,#fff 80%)
 }
 .pl-trigger{
@@ -5625,7 +5654,9 @@ ul.mn-menu-submenu.mn-menu-lvl2.unstyled a:hover {
     display:flex;
     -webkit-flex-direction:column;
     -ms-flex-direction:column;
-    flex-direction:column
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+            flex-direction:column
 }
 .block-small.partner .pg-read-more{
     -webkit-box-ordinal-group:21;
@@ -5887,7 +5918,9 @@ ul.mn-menu-submenu.mn-menu-lvl2.unstyled a:hover {
     display:flex;
     -webkit-flex-direction:column;
     -ms-flex-direction:column;
-    flex-direction:column
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+            flex-direction:column
 }
 .sr-group-event .sr-item-img .sr-item-link,.sr-modal{
     display:none
@@ -11471,43 +11504,43 @@ body{
 }
 @font-face{
     font-family:glober bold;
-    src:url(../fonts/glober/GloberBoldItalic.eot);
-    src:url(../fonts/glober/GloberBoldItalic.eot?#iefix) format('embedded-opentype'),url(../fonts/glober/GloberBoldItalic.woff2) format('woff2'),url(../fonts/glober/GloberBoldItalic.woff) format('woff'),url(../fonts/glober/GloberBoldItalic.ttf) format('truetype'),url(../fonts/glober/GloberBoldItalic.svg#GloberBoldItalic) format('svg');
+    src:url(fonts/glober/GloberBoldItalic.eot);
+    src:url(fonts/glober/GloberBoldItalic.eot?#iefix) format('embedded-opentype'),url(fonts/glober/GloberBoldItalic.woff2) format('woff2'),url(fonts/glober/GloberBoldItalic.woff) format('woff'),url(fonts/glober/GloberBoldItalic.ttf) format('truetype'),url(fonts/glober/GloberBoldItalic.svg#GloberBoldItalic) format('svg');
     font-weight:700;
     font-style:italic
 }
 @font-face{
     font-family:glober regular;
-    src:url(../fonts/glober/GloberRegularItalic.eot);
-    src:url(../fonts/glober/GloberRegularItalic.eot?#iefix) format('embedded-opentype'),offres-stands url(../fonts/glober/GloberRegularItalic.woff2) format('woff2'),url(../fonts/glober/GloberRegularItalic.woff) format('woff'),url(../fonts/glober/GloberRegularItalic.ttf) format('truetype'),url(../fonts/glober/GloberRegularItalic.svg#GloberRegularItalic) format('svg');
+    src:url(fonts/glober/GloberRegularItalic.eot);
+    src:url(fonts/glober/GloberRegularItalic.eot?#iefix) format('embedded-opentype'),offres-stands url(fonts/glober/GloberRegularItalic.woff2) format('woff2'),url(fonts/glober/GloberRegularItalic.woff) format('woff'),url(fonts/glober/GloberRegularItalic.ttf) format('truetype'),url(fonts/glober/GloberRegularItalic.svg#GloberRegularItalic) format('svg');
     font-weight:400;
     font-style:italic
 }
 @font-face{
     font-family:glober;
-    src:url(../fonts/glober/GloberBold.eot);
-    src:url(../fonts/glober/GloberBold.eot?#iefix) format('embedded-opentype'),url(../fonts/glober/GloberBold.woff2) format('woff2'),url(../fonts/glober/GloberBold.woff) format('woff'),url(../fonts/glober/GloberBold.ttf) format('truetype'),url(../fonts/glober/GloberBold.svg#GloberBold) format('svg');
+    src:url(fonts/glober/GloberBold.eot);
+    src:url(fonts/glober/GloberBold.eot?#iefix) format('embedded-opentype'),url(fonts/glober/GloberBold.woff2) format('woff2'),url(fonts/glober/GloberBold.woff) format('woff'),url(fonts/glober/GloberBold.ttf) format('truetype'),url(fonts/glober/GloberBold.svg#GloberBold) format('svg');
     font-weight:700;
     font-style:normal
 }
 @font-face{
     font-family:glober semibold;
-    src:url(../fonts/glober/GloberSemiBoldItalic.eot);
-    src:url(../fonts/glober/GloberSemiBoldItalic.eot?#iefix) format('embedded-opentype'),url(../fonts/glober/GloberSemiBoldItalic.woff2) format('woff2'),url(../fonts/glober/GloberSemiBoldItalic.woff) format('woff'),url(../fonts/glober/GloberSemiBoldItalic.ttf) format('truetype'),url(../fonts/glober/GloberSemiBoldItalic.svg#GloberSemiBoldItalic) format('svg');
+    src:url(fonts/glober/GloberSemiBoldItalic.eot);
+    src:url(fonts/glober/GloberSemiBoldItalic.eot?#iefix) format('embedded-opentype'),url(fonts/glober/GloberSemiBoldItalic.woff2) format('woff2'),url(fonts/glober/GloberSemiBoldItalic.woff) format('woff'),url(fonts/glober/GloberSemiBoldItalic.ttf) format('truetype'),url(fonts/glober/GloberSemiBoldItalic.svg#GloberSemiBoldItalic) format('svg');
     font-weight:600;
     font-style:italic
 }
 @font-face{
     font-family:glober;
-    src:url(../fonts/glober/GloberRegular.eot);
-    src:url(../fonts/glober/GloberRegular.eot?#iefix) format('embedded-opentype'),url(../fonts/glober/GloberRegular.woff2) format('woff2'),url(../fonts/glober/GloberRegular.woff) format('woff'),url(../fonts/glober/GloberRegular.ttf) format('truetype'),url(../fonts/glober/GloberRegular.svg#GloberRegular) format('svg');
+    src:url(fonts/glober/GloberRegular.eot);
+    src:url(fonts/glober/GloberRegular.eot?#iefix) format('embedded-opentype'),url(fonts/glober/GloberRegular.woff2) format('woff2'),url(fonts/glober/GloberRegular.woff) format('woff'),url(fonts/glober/GloberRegular.ttf) format('truetype'),url(fonts/glober/GloberRegular.svg#GloberRegular) format('svg');
     font-weight:400;
     font-style:normal
 }
 @font-face{
     font-family:glober;
-    src:url(../fonts/glober/GloberSemiBold.eot);
-    src:url(../fonts/glober/GloberSemiBold.eot?#iefix) format('embedded-opentype'),url(../fonts/glober/GloberSemiBold.woff2) format('woff2'),url(../fonts/glober/GloberSemiBold.woff) format('woff'),url(../fonts/glober/GloberSemiBold.ttf) format('truetype'),url(../fonts/glober/GloberSemiBold.svg#GloberSemiBold) format('svg');
+    src:url(fonts/glober/GloberSemiBold.eot);
+    src:url(fonts/glober/GloberSemiBold.eot?#iefix) format('embedded-opentype'),url(fonts/glober/GloberSemiBold.woff2) format('woff2'),url(fonts/glober/GloberSemiBold.woff) format('woff'),url(fonts/glober/GloberSemiBold.ttf) format('truetype'),url(fonts/glober/GloberSemiBold.svg#GloberSemiBold) format('svg');
     font-weight:600;
     font-style:normal
 }
@@ -11875,6 +11908,7 @@ header .logo.logo_texte a:after{
     background:-webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.15)),to(rgba(255,255,255,0)));
     background:-webkit-linear-gradient(left,rgba(0,0,0,.15) 0,rgba(255,255,255,0) 100%);
     background:-o-linear-gradient(left,rgba(0,0,0,.15) 0,rgba(255,255,255,0) 100%);
+    background:-webkit-gradient(linear,left top, right top,color-stop(0, rgba(0,0,0,.15)),to(rgba(255,255,255,0)));
     background:linear-gradient(to right,rgba(0,0,0,.15) 0,rgba(255,255,255,0) 100%)
 }
 header .header_links{
@@ -12254,7 +12288,9 @@ header.is-stuck .header_links{
     white-space: nowrap;
 }
 .espace-pro header.is-stuck ul.mn-menu.mn-menu-lvl1.unstyled {
-    flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
 }
 .espace-pro header .quicklinks li.ql-item .btn-primary{
     height:70px;
