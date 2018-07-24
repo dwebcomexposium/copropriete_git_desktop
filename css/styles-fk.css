@@ -11808,7 +11808,7 @@ ul.mn-menu-submenu.mn-menu-lvl2.unstyled {
     border-top: 20px solid #ffffff;
 }
 
-.espace-pro header .linkid72282 .icon,.espace-pro header .linkid72283 .icon,.espace-pro header li:last-child .icon,.home-quicklinks .linkid70690 .icon,.home-quicklinks .linkid70692 .icon,.home-quicklinks .linkid70693 .icon,.home-quicklinks .linkid70696 .icon,.liens-thematiques .linkid70698 .icon,.liens-thematiques .linkid70700 .icon,.liens-thematiques .linkid70701 .icon,.liens-thematiques .linkid70702 .icon,.liens-thematiques .linkid70703 .icon,.liens-thematiques .linkid70704 .icon,.liens-thematiques .linkid70705 .icon,.liens-thematiques .linkid70706 .icon,.liens-thematiques .linkid70707 .icon,header .linkid70638 .icon{
+.espace-pro header .linkid72282 .icon,.espace-pro header .linkid72283 .icon,.espace-pro header li.linkid72283 .icon,.home-quicklinks .linkid70690 .icon,.home-quicklinks .linkid70692 .icon,.home-quicklinks .linkid70693 .icon,.home-quicklinks .linkid70696 .icon,.liens-thematiques .linkid70698 .icon,.liens-thematiques .linkid70700 .icon,.liens-thematiques .linkid70701 .icon,.liens-thematiques .linkid70702 .icon,.liens-thematiques .linkid70703 .icon,.liens-thematiques .linkid70704 .icon,.liens-thematiques .linkid70705 .icon,.liens-thematiques .linkid70706 .icon,.liens-thematiques .linkid70707 .icon,header .linkid70638 .icon{
     background-image:url(https://www.saloncopropriete.com/theme/copropriete_git_desktop/img/sprite_icons_FK.png);
     background-repeat:no-repeat
 }
@@ -11876,7 +11876,7 @@ header .home-quicklinks [class^=btn]:hover .icon{
 .espace-pro header .linkid72283 .icon{
     background-position:-250px top
 }
-.espace-pro header li:last-child .icon{
+.espace-pro header li.linkid72283 .icon{
     background-position:-29px -496px
 }
 header{
@@ -12296,7 +12296,7 @@ header.is-stuck .header_links{
     height:70px;
     vertical-align:middle
 }
-.espace-pro header .linkid72282 .btn-primary,.espace-pro header .linkid72283 .btn-primary,.espace-pro header li:last-child .btn-primary{
+.espace-pro header .linkid72282 .btn-primary,.espace-pro header .linkid72283 .btn-primary,.espace-pro header li.linkid72283 .btn-primary{
     background:#f6990e;
     color:#fff;
     font-size:16px;
@@ -12307,13 +12307,13 @@ header.is-stuck .header_links{
     text-align:left;
     width:auto
 }
-.espace-pro header .linkid72283 .btn-primary,.espace-pro header li:last-child .btn-primary{
+.espace-pro header .linkid72283 .btn-primary,.espace-pro header li.linkid72283 .btn-primary{
     background:#3973a5
 }
-.espace-pro header .linkid72282 .btn-primary:hover,.espace-pro header .linkid72283 .btn-primary:hover,.espace-pro header li:last-child .btn-primary:hover{
+.espace-pro header .linkid72282 .btn-primary:hover,.espace-pro header .linkid72283 .btn-primary:hover,.espace-pro header li.linkid72283 .btn-primary:hover{
     background:#001e51
 }
-.espace-pro header .linkid72282 .icon,.espace-pro header .linkid72283 .icon,.espace-pro header li:last-child .icon{
+.espace-pro header .linkid72282 .icon,.espace-pro header .linkid72283 .icon,.espace-pro header li.linkid72283 .icon{
     height:40px;
     width:40px
 }
@@ -14372,7 +14372,7 @@ form.comexposium-survey-form{
     .site-wrapper .inside{
         padding:0 20px
     }
-    .espace-pro header .linkid72282 .btn-primary,.espace-pro header .linkid72283 .btn-primary,.espace-pro header li:last-child .btn-primary{
+    .espace-pro header .linkid72282 .btn-primary,.espace-pro header .linkid72283 .btn-primary,.espace-pro header li.linkid72283 .btn-primary{
         font-size:15px
     }
     .espace-pro header .linkid72282 .btn-primary .txt-btn,.espace-pro header .linkid72283 .btn-primary .txt-btn{
@@ -14581,4 +14581,8 @@ header.is-stuck .header_links .dateSalon{
 }
 .article a.container_redac:hover:before{
     background-position:0 -517px
+}
+
+.espace-pro li.ql-item.linkid72283{
+    display:none;
 }
