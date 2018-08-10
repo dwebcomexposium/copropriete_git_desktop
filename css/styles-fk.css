@@ -7530,7 +7530,7 @@ button.mod-catal .unstyled:focus,input[type=button].mod-catal .unstyled:focus,in
     width:18px
 }
 .mod-catal .form-item-checkbox [type=checkbox]:checked+.checkbox-title:after{
-    background-image:url(https://www.saloncopropriete.com/theme/copropriete_git_desktop/img/corporate/form-checked.png);
+    background-image:url(https://www.saloncopropriete.com/theme/copropriete2_git_desktop/img/corporate/form-checked.png);
     background-repeat:no-repeat;
     background-position:50%
 }
@@ -7791,11 +7791,11 @@ button.mod-catal .unstyled:focus,input[type=button].mod-catal .unstyled:focus,in
     border-color:#fff
 }
 .mod-catal .is-rtl .pika-next,.mod-catal .pika-prev{
-    background:url(https://www.saloncopropriete.com/theme/copropriete_git_desktop/img/arrow-left.png) 50% 50% no-repeat;
+    background:url(https://www.saloncopropriete.com/theme/copropriete2_git_desktop/img/arrow-left.png) 50% 50% no-repeat;
     opacity:1
 }
 .mod-catal .is-rtl .pika-prev,.mod-catal .pika-next{
-    background:url(https://www.saloncopropriete.com/theme/copropriete_git_desktop/img/arrow-right.png) 50% 50% no-repeat;
+    background:url(https://www.saloncopropriete.com/theme/copropriete2_git_desktop/img/arrow-right.png) 50% 50% no-repeat;
     opacity:1
 }
 .mod-catal .link-read-more .icon{
@@ -9017,7 +9017,7 @@ body>script{
 }
 /*!FamFamFam Flags Icons Set CSS Sprite Classes <http://www.famfamfam.com/lab/icons/flags/> Licensed under Free of use license Sources and updates of the sprites on GitHub (not liable for FamFamFam) <http://github.com/atelierspierrot/famfamfam-flags-sprite>*/
 [class^=flag-icon]{
-    background-image:url(https://www.saloncopropriete.com/theme/copropriete_git_desktop/img/flags-sprite.png);
+    background-image:url(https://www.saloncopropriete.com/theme/copropriete2_git_desktop/img/flags-sprite.png);
     background-position:top left;
     background-repeat:no-repeat;
     display:inline-block;
@@ -10602,7 +10602,7 @@ ul.form-nested-list{
     width:18px
 }
 .form-item-checkbox [type=checkbox]:checked+.checkbox-title:after{
-    background-image:url(https://www.saloncopropriete.com/theme/copropriete_git_desktop/img/corporate/form-checked.png);
+    background-image:url(https://www.saloncopropriete.com/theme/copropriete2_git_desktop/img/corporate/form-checked.png);
     background-repeat:no-repeat;
     background-position:50%
 }
@@ -10861,11 +10861,11 @@ select:focus::-ms-value{
     border-color:#fff
 }
 .is-rtl .pika-next,.pika-prev{
-    background:url(https://www.saloncopropriete.com/theme/copropriete_git_desktop/img/arrow-left.png) 50% 50% no-repeat;
+    background:url(https://www.saloncopropriete.com/theme/copropriete2_git_desktop/img/arrow-left.png) 50% 50% no-repeat;
     opacity:1
 }
 .is-rtl .pika-prev,.pika-next{
-    background:url(https://www.saloncopropriete.com/theme/copropriete_git_desktop/img/arrow-right.png) 50% 50% no-repeat;
+    background:url(https://www.saloncopropriete.com/theme/copropriete2_git_desktop/img/arrow-right.png) 50% 50% no-repeat;
     opacity:1
 }
 .dl-btn,.dl-content{
@@ -11692,15 +11692,15 @@ a.lien2:after,a.lien2:hover:after,a.pdf:after,a.pdf:hover:after{
     top:10px
 }
 a.pdf:after{
-    background:url(https://www.saloncopropriete.com/theme/copropriete_git_desktop/img/sprite_icons_FK.png) -200px -30px no-repeat;
+    background:url(https://www.saloncopropriete.com/theme/copropriete2_git_desktop/img/sprite_icons_FK.png) -200px -30px no-repeat;
     height:43px
 }
 a.lien2:after{
     height:43px;
-    background:url(https://www.saloncopropriete.com/theme/copropriete_git_desktop/img/sprite_icons_FK.png) -200px -50px no-repeat
+    background:url(https://www.saloncopropriete.com/theme/copropriete2_git_desktop/img/sprite_icons_FK.png) -200px -50px no-repeat
 }
 a.lien2:hover:after,a.pdf:hover:after{
-    background:url(https://www.saloncopropriete.com/theme/copropriete_git_desktop/img/sprite_icons_FK.png) -250px -50px no-repeat;
+    background:url(https://www.saloncopropriete.com/theme/copropriete2_git_desktop/img/sprite_icons_FK.png) -250px -50px no-repeat;
     height:23px
 }
 a.lien2:hover,a.pdf:hover{
@@ -11708,7 +11708,7 @@ a.lien2:hover,a.pdf:hover{
     background:#fff
 }
 a.pdf:hover:after{
-    background:url(https://www.saloncopropriete.com/theme/copropriete_git_desktop/img/sprite_icons_FK.png) -250px -50px no-repeat
+    background:url(https://www.saloncopropriete.com/theme/copropriete2_git_desktop/img/sprite_icons_FK.png) -250px -50px no-repeat
 }
 .btn-primary:active,.btn-primary:focus,.btn-primary:hover{
     color:inherit;
@@ -11809,7 +11809,7 @@ ul.mn-menu-submenu.mn-menu-lvl2.unstyled {
 }
 
 .espace-pro header .linkid72282 .icon,.espace-pro header .linkid72283 .icon,.espace-pro header li.linkid72283 .icon,.home-quicklinks .linkid70690 .icon,.home-quicklinks .linkid70692 .icon,.home-quicklinks .linkid70693 .icon,.home-quicklinks .linkid70696 .icon,.liens-thematiques .linkid70698 .icon,.liens-thematiques .linkid70700 .icon,.liens-thematiques .linkid70701 .icon,.liens-thematiques .linkid70702 .icon,.liens-thematiques .linkid70703 .icon,.liens-thematiques .linkid70704 .icon,.liens-thematiques .linkid70705 .icon,.liens-thematiques .linkid70706 .icon,.liens-thematiques .linkid70707 .icon,header .linkid70638 .icon{
-    background-image:url(https://www.saloncopropriete.com/theme/copropriete_git_desktop/img/sprite_icons_FK.png);
+    background-image:url(https://www.saloncopropriete.com/theme/copropriete2_git_desktop/img/sprite_icons_FK.png);
     background-repeat:no-repeat
 }
 header .linkid70638 .icon{
@@ -11943,7 +11943,7 @@ header .header_links .dateSalon{
     height:71px;
     margin:56px 0 8px 20px;
     float:left;
-    background:url(https://www.saloncopropriete.com/theme/copropriete_git_desktop/img/date_2018.jpg) center center no-repeat
+    background:url(https://www.saloncopropriete.com/theme/copropriete2_git_desktop/img/date_2018.jpg) center center no-repeat
 }
 header .header_links .quicklinks{
     float:right;
@@ -12594,7 +12594,7 @@ header.is-stuck .header_links{
     border:10px solid #3973a5
 }
 .liens-thematiques{
-    background:url(https://www.saloncopropriete.com/theme/copropriete_git_desktop/img/bg_thematique.jpg) center center;
+    background:url(https://www.saloncopropriete.com/theme/copropriete2_git_desktop/img/bg_thematique.jpg) center center;
     -webkit-background-size:cover;
     background-size:cover;
     padding:5% 0;
@@ -13466,10 +13466,10 @@ header.is-stuck .header_links{
     text-align:center
 }
 .concretisez-objectifs{
-    background:url(https://www.saloncopropriete.com/theme/copropriete_git_desktop/img/bg_objectifs.jpg) center center
+    background:url(https://www.saloncopropriete.com/theme/copropriete2_git_desktop/img/bg_objectifs.jpg) center center
 }
 .participation-reussie{
-    background:url(https://www.saloncopropriete.com/theme/copropriete_git_desktop/img/bg_cles.jpg) center center
+    background:url(https://www.saloncopropriete.com/theme/copropriete2_git_desktop/img/bg_cles.jpg) center center
 }
 .concretisez-objectifs .block-title,.participation-reussie .block-title{
     color:#fff;
@@ -13505,7 +13505,7 @@ header.is-stuck .header_links{
 }
 .concretisez-objectifs .btn-primary .icon,.participation-reussie .btn-primary .icon{
     display:block;
-    background:url(https://www.saloncopropriete.com/theme/copropriete_git_desktop/img/icones_pros.png) no-repeat rgba(255,255,255,.9);
+    background:url(https://www.saloncopropriete.com/theme/copropriete2_git_desktop/img/icones_pros.png) no-repeat rgba(255,255,255,.9);
     -webkit-border-radius:50%;
     border-radius:50%;
     height:230px;
@@ -13685,7 +13685,7 @@ header.is-stuck .header_links{
     min-height:500px
 }
 .error404 .site-wrapper{
-    background:url(https://www.saloncopropriete.com/theme/copropriete_git_desktop/img/bg_404.jpg) center no-repeat;
+    background:url(https://www.saloncopropriete.com/theme/copropriete2_git_desktop/img/bg_404.jpg) center no-repeat;
     -webkit-background-size:cover;
     background-size:cover
 }
@@ -13712,7 +13712,7 @@ header.is-stuck .header_links{
 }
 .error404 .intro p:first-child{
     padding-bottom:180px;
-    background:url(https://www.saloncopropriete.com/theme/copropriete_git_desktop/img/emoticoneror.png) center bottom no-repeat
+    background:url(https://www.saloncopropriete.com/theme/copropriete2_git_desktop/img/emoticoneror.png) center bottom no-repeat
 }
 .error404 .intro p a{
     display:inline-block;
@@ -14520,7 +14520,7 @@ header .mn-item-lvl-1>a .mn-link-text:before,header .mn-menu-item:first-of-type>
 }
 header.is-stuck .header_links .dateSalon{
     margin-top:16px;
-    background:url(https://www.saloncopropriete.com/theme/copropriete_git_desktop/img/date_sticky-2018.jpg) center center no-repeat!important;
+    background:url(https://www.saloncopropriete.com/theme/copropriete2_git_desktop/img/date_sticky-2018.jpg) center center no-repeat!important;
     width:177px
 }
 .btn-primary{
@@ -14570,7 +14570,7 @@ header.is-stuck .header_links .dateSalon{
     position:absolute;
     width:16px;
     height:22px;
-    background-image:url(https://www.saloncopropriete.com/theme/copropriete_git_desktop/img/sprite_icons_FK.png);
+    background-image:url(https://www.saloncopropriete.com/theme/copropriete2_git_desktop/img/sprite_icons_FK.png);
     top:50%;
     left:15px;
     -webkit-transform:translateY(-50%);
