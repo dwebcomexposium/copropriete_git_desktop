@@ -18,3 +18,14 @@ margin-top: 16px;
 .btn-primary{
 border:0;
 }
+
+/****** COMPTE CLIENT *******/
+
+#cxpmClientAccountWidget {
+    font-family: Montserrat;
+    font-weight: 300;
+    margin-top: 10px;
+    right: 286px;
+    position: absolute;
+	z-index:999999;
+}
