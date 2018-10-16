@@ -29,3 +29,8 @@ border:0;
     position: absolute;
 	z-index:999999;
 }
+
+.is-stuck div#cxpmClientAccountWidget {
+    right: 673px !important;
+    margin-top: 19px !important;
+}
