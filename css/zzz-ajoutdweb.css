@@ -32,3 +32,9 @@ border:0;
     right: 673px !important;
     margin-top: 19px !important;
 }
+
+/********* NEWSLETTER ********/
+
+input[type="checkbox"]:focus {
+    -webkit-appearance: checkbox !important;
+}
