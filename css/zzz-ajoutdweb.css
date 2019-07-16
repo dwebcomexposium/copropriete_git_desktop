@@ -38,3 +38,9 @@ border:0;
 input[type="checkbox"]:focus {
     -webkit-appearance: checkbox !important;
 }
+
+/********CATALOGUE**********/
+
+.catalogue div#zone4{
+	display: none!important;
+}
