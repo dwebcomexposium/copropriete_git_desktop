@@ -47,3 +47,6 @@ input[type="checkbox"]:focus {
 .catalogue .layout-2-col {
     width: 100%!important;
 }
+#catalog-v2 .bgTint {
+    background-color: #B0CEEE;
+}
