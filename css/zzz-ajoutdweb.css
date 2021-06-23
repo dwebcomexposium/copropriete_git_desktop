@@ -44,3 +44,6 @@ input[type="checkbox"]:focus {
 .catalogue div#zone4{
 	display: none!important;
 }
+.catalogue .layout-2-col {
+    width: 100%;
+}
