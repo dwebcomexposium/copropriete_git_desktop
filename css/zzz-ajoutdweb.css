@@ -45,5 +45,5 @@ input[type="checkbox"]:focus {
 	display: none!important;
 }
 .catalogue .layout-2-col {
-    width: 100%;
+    width: 100%!important;
 }
